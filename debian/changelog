@@ -1,4 +1,4 @@
-aws-elasticache-cluster-client-memcached-for-php (2.0.1-1~xenial4) xenial; urgency=medium
+aws-elasticache-cluster-client-memcached-for-php (2.0.1-1~trusty2) trusty; urgency=medium
 
   * Initial release (Closes: #1843)
 
