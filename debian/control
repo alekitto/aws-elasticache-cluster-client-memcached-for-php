@@ -1,0 +1,15 @@
+Source: aws-elasticache-cluster-client-memcached-for-php
+Section: libs
+Priority: optional
+Maintainer: Alessandro Chitolina <alessandro.chitolina@fazland.com>
+Build-Depends: php7.0-dev,libevent-dev,libsasl2-dev,aws-elasticache-cluster-client-libmemcached-dev (>=1.0.18),pkg-config,debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/awslabs/aws-elasticache-cluster-client-memcached-for-php
+Vcs-Git: https://github.com/awslabs/aws-elasticache-cluster-client-memcached-for-php.git
+
+Package: aws-elasticache-cluster-client-memcached-for-php
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: php-memcached
+Description: AWS memcached cluster client ext for PHP
+
